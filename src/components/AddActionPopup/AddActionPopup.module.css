@@ -1,0 +1,4 @@
+.tabsIndicator {
+    @apply absolute -bottom-3.5 w-full h-0.5;
+    background: linear-gradient(to right, transparent 0%, #6c5ecf 50%, transparent 100%);
+}

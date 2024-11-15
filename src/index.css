@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @apply selection:bg-indigo-600 selection:text-foreground-accent caret-foreground-muted bg-background;
+}
+
+#root {
+  max-width: 100svw;
+  max-height: 100svh;
+  @apply h-svh w-svw overflow-clip bg-background
+}

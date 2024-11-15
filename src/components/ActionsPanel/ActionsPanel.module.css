@@ -1,0 +1,3 @@
+.chevron {
+    @apply text-foreground hover:text-foreground-accent transition-colors cursor-pointer;
+}
